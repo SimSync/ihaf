@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Insert header and footer" lan="IHAF_TITLE" version="1.0" date="2019-01-30" compatibility="2.0" installRequired="true" >
+	<author name="SimSync" url="https://www.simsync.de" />
+	<summary lan="">Insert text to header or footer</summary>
+	<description lan="">Enables the user to insert text (e.g. javascript) into the header and/or footer of the page.This can be used to insert tracking codes (Matomo/Piwik, Google, etc.)</description>
+	<keywords>
+		<word>enhancement</word>
+		<word>header</word>
+		<word>footer</word>
+	</keywords>
+	<category>misc</category>
+	<copyright>SimSync 2019</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="" iconSmall="" icon128="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='ihaf_header_area'>2</pref>
+		<pref name='ihaf_header'></pref>
+		<pref name='ihaf_footer_area'>2</pref>
+		<pref name='ihaf_footer'></pref>
+	</pluginPrefs>
+</e107Plugin>
